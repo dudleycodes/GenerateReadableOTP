@@ -1,0 +1,23 @@
+{
+    "name": "readable-otp",
+    "version": "1.0.0",
+    "description": "Generate human-readable, one-time passwords.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "tslint \"src/**/*.ts\""
+    },
+    "keywords": [],
+    "author": "James Dudley",
+    "license": "MIT License",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dudleycodes/Readable-OTP.git"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "ts-node": "^1.7.0",
+        "tslint": "^3.15.1",
+        "typescript": "^2.0.10",
+        "typings": "^2.0.0"
+    }
+}

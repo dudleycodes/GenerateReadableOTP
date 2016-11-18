@@ -1,0 +1,55 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Columns at which to show vertical rulers
+    "editor.rulers": [140],
+
+    // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
+    "editor.wordWrap": false,
+
+    // Controls if the editor should automatically format the line after typing
+    "editor.formatOnType": true,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+    "editor.detectIndentation": false,
+
+    // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+    "editor.tabSize": 4,
+
+    // Insert spaces when pressing Tab. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+    "editor.insertSpaces": true,
+
+    // The default character set encoding to use when reading and writing files.
+    "files.encoding": "utf8",
+
+    // Set the end of line character to be Linux-compatible.
+    "files.eol": "\n",
+
+    "files.exclude": {
+        "**/.git": true,            // this is a default value
+        "**/.DS_Store": true,       // this is a default value
+        "src/*.gitkeep": true
+    },
+
+    // When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": true,
+
+    // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.
+    "search.exclude": {
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/tmp": true,
+        "*.js": true
+    },
+
+    // Confirm before synchronizing git repositories.
+    "git.confirmSync": true,
+
+    // 64-bit PowerShell if available, otherwise 32-bit
+    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+
+    "typescript.check.workspaceVersion": false,
+
+    //tslint settings
+    "tslint.rulesDirectory": "./node_modules/codelyzer",
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

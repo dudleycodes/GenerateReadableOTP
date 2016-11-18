@@ -1,0 +1,56 @@
+
+### Node ###
+logs
+*.log
+npm-debug.log*
+.grunt
+build/Release
+node_modules
+jspm_packages
+.npm
+
+
+### Compilied Output ###
+dist/
+
+
+### Linux Junk ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+### Mac OS Junk ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Windows  Junk ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
