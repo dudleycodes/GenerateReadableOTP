@@ -2,8 +2,8 @@
   "name": "generate-readable-otp",
   "version": "0.1.0",
   "description": "Generate human-readable, one-time use passwords.",
-  "main": "readable-otp.js",
-  "typings": "dist/readable-otp",
+  "main": "generate-readable-otp.js",
+  "typings": "dist/generate-readable-otp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
