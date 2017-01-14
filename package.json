@@ -2,11 +2,15 @@
   "name": "readable-otp",
   "version": "0.1.0",
   "description": "Generate human-readable, one-time use passwords.",
-  "main": "index.js",
+  "main": "readable-otp.js",
+  "typings": "dist/readable-otp",
   "scripts": {
-    "lint": "tslint \"src/**/*.ts\"",
-    "test": "jasmine"
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+      "dist/"
+  ],
   "keywords": [
     "OTP",
     "password",
@@ -17,16 +21,11 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/dudleycodes/Readable-OTP.git"
+    "url": "git+https://github.com/dudleycodes/Readable-OTP.git"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/jasmine": "*",
-    "@types/node": "*",
-    "jasmine": "^2.5.2",
-    "ts-node": "^1.7.0",
-    "tslint": "^3.15.1",
-    "typescript": "^2.0.10",
-    "typings": "^2.0.0"
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0"
   }
 }

@@ -44,12 +44,8 @@
     // Confirm before synchronizing git repositories.
     "git.confirmSync": true,
 
-    // 64-bit PowerShell if available, otherwise 32-bit
+    // 64-bit PowerShell if available, otherwise 32-bit on Windows
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
 
-    "typescript.check.workspaceVersion": false,
-
-    //tslint settings
-    "tslint.rulesDirectory": "./node_modules/codelyzer",
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.check.workspaceVersion": false
 }

@@ -1,19 +1,13 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "ES5",
-        "noImplicitAny": true,
+        "module": "umd",
+        "target": "es5",
         "declaration": true,
+        "noImplicitAny": true,
         "sourceMap": true,
-        "watch": true,
-        "charset": "utf8",
-        "newLine": "LF",
-        "removeComments": false,
-        "listFiles": true,
-        "locale": "en-us",
-        "outDir": "dist/"
+        "outDir": "dist"
     },
-    "exclude": [
-        "node_modules"
+    "files": [
+        "src/readable-otp.ts"
     ]
 }
