@@ -1,4 +1,4 @@
-export default class ReadableOTP {
+export default class GenerateReadableOTP {
 
     /** Generate a random hexadecimal value */
     public static Hexadecimal(length: number = 6): string[] {

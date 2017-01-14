@@ -1,11 +1,10 @@
 {
-  "name": "readable-otp",
-  "version": "0.1.0",
+  "name": "generate-readable-otp",
+  "version": "0.1.1",
   "description": "Generate human-readable, one-time use passwords.",
   "main": "readable-otp.js",
   "typings": "dist/readable-otp",
   "scripts": {
-    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -13,6 +12,7 @@
   ],
   "keywords": [
     "OTP",
+    "readable",
     "password",
     "generator"
   ],
@@ -22,6 +22,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dudleycodes/Readable-OTP.git"
+  },
+  "bugs": {
+      "url": "https://github.com/dudleycodes/GenerateReadableOTP/issues"
   },
   "dependencies": {},
   "devDependencies": {
