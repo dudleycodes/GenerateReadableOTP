@@ -17,13 +17,13 @@ All methods return an array of strings.
 
 Example: `ShortPhrase()` returns `["dogs", "like", "art"]`
 
-This is done so that presentation-layer could format the output to maximize readability. One possibility would be alternating the colors of each word as the phrase "dogslikeart", while easy to say outloud might be cumbersome to physically read.
+This is done so that a presentation-layer can easily format the output to aid readability. At first glance the above example "dogslikeart" takes a little effort to read - but alternating the color of each word woud make it easy to read.
 
 # Methods
 
 ## Hexadecimal()
 
-Generate a random hexadecimal value. Example:
+Generate a random hexadecimal value.
 
 ## ShortPhrase()
 
