@@ -61,7 +61,7 @@ export default class ReadableOTP {
         return returnArray;
     }
 
-    private static subject: string[] = ["aliens", "allies", "anteaters", "antelope", "badgers", "bats", "bears", "beasts", "birds", "bison",
+    private static readonly subject: string[] = ["aliens", "allies", "anteaters", "antelope", "badgers", "bats", "bears", "beasts", "birds", "bison",
         "blacksmiths", "boars", "bobcats", "buffalo", "bugs", "bulldogs", "bullies", "butterflies", "camels", "cats", "cattle",
         "chickens", "cobras", "cows", "coyotes", "crabs", "crickets", "criminals", "cyclops", "deer", "demons", "dogs", "donkeys",
         "doves", "dragonflies", "dragons", "ducks", "eagles", "eels", "elephants", "elk", "elves", "falcons", "ferrets", "fish", "foxes",
@@ -75,9 +75,9 @@ export default class ReadableOTP {
         "toads", "trolls", "turkeys", "turtles", "undead", "unicorns", "vampires", "villians", "vultures", "warriors", "werewolves",
         "whales", "wildcats", "wolves", "woodpeckers", "worms", "yeti", "zebras", "zombies"];
 
-    private static verb: string[] = ["admire", "adore", "dig", "fancy", "choose", "take", "desire", "like", "love", "want", "prefer"];
+    private static readonly verb: string[] = ["admire", "adore", "dig", "fancy", "choose", "take", "desire", "like", "love", "want", "prefer"];
 
-    private static object: string[] = ["adventure", "advice", "afternoons", "aircraft", "airplanes", "airports", "alarms", "almonds",
+    private static readonly object: string[] = ["adventure", "advice", "afternoons", "aircraft", "airplanes", "airports", "alarms", "almonds",
         "apples", "archery", "art", "august", "autumn", "bagels", "balloons", "bamboo", "bananas", "banks", "barns", "baseball",
         "basketball", "baskets", "batteries", "battleships", "bbq", "beads", "beans", "beards", "beds", "bedtime", "benches", "bicycles",
         "bikes", "biology", "birthdays", "blankets", "blenders", "blizzards", "blogs", "boats", "books", "boots", "bottles", "bowling",
