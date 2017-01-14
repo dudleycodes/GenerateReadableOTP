@@ -1,6 +1,6 @@
 {
   "name": "generate-readable-otp",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "Generate human-readable, one-time use passwords.",
   "main": "generate-readable-otp.js",
   "typings": "dist/generate-readable-otp",
