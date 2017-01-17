@@ -8,6 +8,7 @@
         "outDir": "dist"
     },
     "files": [
-        "src/generate-readable-otp.ts"
+        "src/generate-readable-otp.ts",
+        "src/readOnlyData.ts"
     ]
 }
