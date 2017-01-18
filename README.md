@@ -7,7 +7,7 @@
 The goal of this libary is to generate passwods that are:
 
 * Easily verbally communicated.
-* Easy to read of the screen.
+* Easy to read off the screen.
 * Non-offensive.
 * Generated phrases that can be read, spelled, and understood by english-readers at the 4th-grade level.
 * Contain no punctuation or symbols.
