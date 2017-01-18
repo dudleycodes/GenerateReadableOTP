@@ -5,7 +5,7 @@ export default class GenerateReadableOTP {
     /** Generate a random hexadecimal value */
     public static Hexadecimal(length: number = 6): string[] {
         if (length < 2) {
-            console.warn("ReadableOTP.Hexadecimal() cannot be less than 2! Value set to 2.");
+            console.warn("GenerateReadableOTP.Hexadecimal() cannot be less than 2! Value set to 2.");
             length = 2;
         }
 
@@ -25,7 +25,7 @@ export default class GenerateReadableOTP {
     /** Generate a short phrase using words from a 4th grade spelling lists. */
     public static ShortPhrase(maxLength: number = 24): string[] {
         if (maxLength < 21) {
-            console.warn("ReadableOTP.maxLength() cannot be less than 21! Value set to 21.");
+            console.warn("GenerateReadableOTP.maxLength() cannot be less than 21! Value set to 21.");
             maxLength = 21;
         }
 
