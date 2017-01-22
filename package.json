@@ -1,6 +1,6 @@
 {
   "name": "generate-readable-otp",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Generate human-readable, one-time use passwords.",
   "main": "generate-readable-otp.js",
   "typings": "dist/generate-readable-otp",
@@ -10,6 +10,7 @@
   },
   "files": [
       "dist/",
+      "lib/",
       "src/*.ts"
   ],
   "keywords": [
