@@ -42,9 +42,9 @@ export default class GenerateReadableOTP {
     }
 
     /** Generates a short pharse with a random number 2-digit number either appended or prepended */
-    public static shortPhraseNumber(): string[] {
+    public static shortPhraseNumber(numberAppend: boolean = false): string[] {
 
-        if (this.getRandomBoolean()) {
+        if (numberAppend || this.getRandomBoolean()) {
             return [...this.shortPhrase(), this.getRandomInt(10, 99).toString()];
         } else {
             return [this.getRandomInt(10, 99).toString(), ...this.shortPhrase()];
@@ -52,10 +52,10 @@ export default class GenerateReadableOTP {
     }
 
     /** Generates a random word with a random number 2-digit number either appended or prepended */
-    public static wordNumber(): string[] {
+    public static wordNumber(numberAppend: boolean = false): string[] {
         let returnArray: string[] = [this.getRandomValueFromArray([... subjects, ...objects]), this.getRandomInt(10, 99)];
 
-        if (this.getRandomBoolean()) {
+        if (!numberAppend && this.getRandomBoolean()) {
             returnArray.reverse();
         }
 

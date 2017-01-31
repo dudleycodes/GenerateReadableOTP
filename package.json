@@ -1,6 +1,6 @@
 {
   "name": "generate-readable-otp",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Generate human-readable, one-time use passwords.",
   "main": "generate-readable-otp.js",
   "typings": "dist/generate-readable-otp",
@@ -17,7 +17,8 @@
     "OTP",
     "readable",
     "password",
-    "generator"
+    "generator",
+    "passphrase"
   ],
   "author": "James Dudley",
   "license": "MIT",
